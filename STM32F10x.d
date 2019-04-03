@@ -1,0 +1,1 @@
+STM32F10x.o: src\STM32F10x.s

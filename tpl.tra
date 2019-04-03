@@ -1,0 +1,24 @@
+*** Creating Trace Output File 'tpl.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"stm32f10x.o"'
+### List of Objects: adding '"stm32f10x_it.o"'
+### List of Objects: adding '"x_stm32.o"'
+### List of Objects: adding '"usart.o"'
+### List of Objects: adding '"tim3_pwm.o"'
+### List of Objects: adding '"..\STM32F10xR.LIB"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "main.o" "stm32f10x.o" "stm32f10x_it.o" "x_stm32.o" "usart.o" "tim3_pwm.o" "..\STM32F10xR.LIB" --ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\tpl.map" -o "tpl.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'tpl.axf'
+### ADS-LD Command File: 'tpl.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'tpl.lnp', Handle=0x0000057C
+### Writing '.lnp' file
+### ADS-LD Command file 'tpl.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
